@@ -1,14 +1,15 @@
-import { nextui } from "@nextui-org/react";
 import type { Config } from "tailwindcss";
 
+const { nextui } = require("@nextui-org/react");
+
 const config: Config = {
-  content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
-  ],
-  theme: {
+	content: [
+		"./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+		"./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+		"./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+		"./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
+	],
+	theme: {
 		colors: {
 			transparent: "#00000000",
 			"soft-shadow": "0px 0px 6px rgba(33, 13, 5, 0.14)",
@@ -58,7 +59,7 @@ const config: Config = {
 						success: "#1ccc5b",
 						warning: "#1ccc5b",
 						divider: "#dbdbdb",
-						// blurred: "#ffffffc7",
+						blurred: "#ffffffc7",
 					},
 				},
 			},
