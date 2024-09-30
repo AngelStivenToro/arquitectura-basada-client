@@ -1,36 +1,13 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Proyecto de Administración de Tareas Basada cliente
 
-## Getting Started
+## Descripción
 
-First, run the development server:
+Este proyecto es una aplicación de administración de tareas desarrollada en JavaScript que implementa la arquitectura cliente/servidor. Permite a los usuarios gestionar sus tareas de manera sencilla, proporcionando funcionalidades para ver, añadir y cambiar estado , mostrando un sistema visual de gestión tareas.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Objetivo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+El objetivo de este proyecto es demostrar la implementación de una arquitectura cliente/servidor, y especificamente representar la parte de cliente de una manera masw grafica y dinamica.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Herramientas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Este proyecto se ha realizado con JavaScript Nativo para ejecutar desde consola, con NodeJS, React en el framework de NextJS
